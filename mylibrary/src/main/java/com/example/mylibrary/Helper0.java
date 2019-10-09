@@ -4,7 +4,7 @@ import android.content.Context;
 import android.widget.Toast;
 
 public class Helper0 {
-    Context context;
-         String name="Rashiq";
+
+      public String name="Rashiq";
            //     Toast.makeText(context, "i am ali", Toast.LENGTH_SHORT).show();
 }
