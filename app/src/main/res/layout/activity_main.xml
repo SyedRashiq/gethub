@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
 
@@ -11,11 +12,16 @@
         android:id="@+id/tv1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="yahoo"/>
+        android:layout_gravity="center"
+        android:text="yahoo" />
+
+
     <TextView
+        android:layout_marginTop="40dp"
         android:id="@+id/tv2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="youtube"/>
+        android:layout_gravity="center"
+        android:text="youtube" />
 
 </LinearLayout>
